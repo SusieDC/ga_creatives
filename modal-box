@@ -1,0 +1,48 @@
+.modal-box {
+  align-items: center;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.modal-dialog-box {
+  background-color: #fff;
+  border: 10px solid;
+  border-image-slice: 2;
+  border-image-source: linear-gradient(to left, #20c063, #B2FF59, #20c063);
+  font-size: 24px;
+  max-width: 400px;
+  text-align: center;
+  padding: 50px 70px;
+  box-shadow: 0 15px 15px 0
+}
+
+.findsomethingelse {
+  background-color: #20c063;
+  background-image: linear-gradient(to left, #20c063, #B2FF59, #20c063);
+  color: #fff;
+  margin: 15px auto;
+  padding: 10px 20px;
+  text-align: center;
+  width: 400x;
+}
+
+.modal-button {
+  text-decoration: none;
+  color: #FFFFFF;  
+}
+
+
+<aside class="modal-box">
+  <section class="modal-dialog-box">
+    <p>Are you interested in this house? Better get 3-4 jobs or win the lottery.</p>
+      <div class="findsomethingelse" id="findsomethingelse">
+        <a href="javascript:enterasuburb();" class="modal-button">Let's find something else...</a>
+      </div>
+  </section>
+</aside>  
